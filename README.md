@@ -1,2 +1,2 @@
 # threejs-labels_anchorable
-THREE JS 2D labels achorable library
+THREE JS 2D buttons and labels achorable library
