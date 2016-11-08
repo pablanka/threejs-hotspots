@@ -1,7 +1,16 @@
-# threejs-labels_anchorable
+# What is it?
+
 THREE JS 2D buttons and labels achorable library
 
-# Impletentation example:
+# How to use it:
+
+First import the script after threejs library in your html:
+
+```html
+<script src="three.min.js"></script>
+<script src="hotspots.min.js"></script>
+```
+Then you can use it like so:
 
 ```javascript
 // set render auto clear false.
