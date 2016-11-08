@@ -55,3 +55,8 @@ window.addEventListener("resize", function(event){
     renderer.setSize(threejsCanvas.width(), threejsCanvas.height());
 });
 ```
+## Authors
+
+* [**Pablo Acuña**](https://github.com/pablanka/)
+
+* [**Luciano Rodriguez**](https://github.com/serweb-labs)
