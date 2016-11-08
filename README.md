@@ -3,7 +3,7 @@ THREE JS 2D buttons and labels achorable library
 
 # Impletentation example:
 
-´´´javascript
+```javascript
 // set render auto clear false.
 renderer.autoClear = false;
 
@@ -54,4 +54,4 @@ window.addEventListener("resize", function(event){
 
     renderer.setSize(threejsCanvas.width(), threejsCanvas.height());
 });
-´´´
+```
