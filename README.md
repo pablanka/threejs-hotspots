@@ -68,4 +68,6 @@ window.addEventListener("resize", function(event){
 
 * [**Pablo Acuña**](https://github.com/pablanka/)
 
+* [**Jorge Mayoraz**](https://github.com/GnomoMZ)
+
 * [**Luciano Rodriguez**](https://github.com/serweb-labs)
