@@ -312,6 +312,7 @@ THREE.Hotspot.prototype.constructor = THREE.Hotspot;
 THREE.Hotspot.prototype.update = function() {
     this.updateElementPos();
     this.updateElementAlpha();
+    this.checkIfBehindCamera();
 };
 
 
@@ -438,6 +439,17 @@ THREE.Hotspot.prototype.updateElementAlpha = function() {
         this.hsptImg.material.opacity = 0;
     }
 };
+
+THREE.Hotspot.prototype.checkIfBehindCamera = function(){
+        var cameraFoward = this.camera.getWorldDirection();
+        var vectorToHotspot = new THREE.Vector3();
+        vectorToHotspot.subVectors(this.position, this.camera.position);
+        if(cameraFoward.dot(vectorToHotspot) < 0){
+            this.hsptImg.visible = false;
+        } else {
+            this.hsptImg.visible = true;
+        }
+}
 
 THREE.Hotspot.prototype.disable = function() {
     this.itsActive = false;

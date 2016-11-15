@@ -16,6 +16,9 @@ Then you can use it like so:
 // set render auto clear false.
 renderer.autoClear = false;
 
+// initialize global configuration
+THREE.threeDataConfig = {renderer: renderer, camera: camera};
+    
 // new hotspot instance
 hotspot = new THREE.Hotspot('img/example.png', 360, 180);
 hotspot.position.set(10,0,0); // set 3D hotspot position.
